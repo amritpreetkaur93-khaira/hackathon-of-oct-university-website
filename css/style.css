@@ -1,0 +1,164 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+
+  
+}
+
+.hero {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #a9d6c6;
+  background-image:url("../images/websitebackground.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+.navbar {
+    width: 100%;
+    min-height: 85px;
+    padding: 20px 7%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+} 
+  
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    text-decoration: none;
+    color: #102f2d;
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.logo-icon {
+    font-size: 23px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #183a37;
+    /* font-size: 12px                                                                       white-space: nowrap; */
+}
+
+nav a:hover {
+    color:white;
+}
+
+
+.explore-oct {
+    background-color: #397f7b;
+    color: white;
+
+    padding: 12px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 12px;
+    /* white-space: nowrap; */
+}
+
+
+.main-content {
+    width: 100%;
+    text-align: center;
+    padding: 35px 20px 50px;
+    color: #102f2d;
+}
+
+
+.tag {
+    display: inline-block;
+     text-decoration: none;
+
+    padding: 8px 18px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+    color: black;
+}
+
+
+.hero-content h1 {
+    max-width: 850px;
+    margin: 25px auto 14px;
+
+    font-size: clamp(30px, 4vw, 46px);
+    line-height: 1.12;
+    font-weight: 700;
+}
+
+.hero-content p {
+    max-width: 650px;
+    margin: 0 auto;
+
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    margin-top: 22px;
+}
+
+
+.gellery-oct,
+.story-oct {
+    display: inline-block;
+    padding: 13px 24px;
+
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.story-oct {
+    background-color: #397f7b;
+    color: white;
+}
+
+
+.story-oct {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #183a37;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
